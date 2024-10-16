@@ -10,7 +10,7 @@ Sockets Links.
 4. Send and receive the message using the send function in socket.
 ## PROGRAM
 
-##client
+client
 ```
 import socket
 
@@ -29,7 +29,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         break
       conn.sendall(data)
 ```
-##sever
+sever
 ```
 import socket
 
